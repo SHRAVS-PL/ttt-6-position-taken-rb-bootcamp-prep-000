@@ -1,5 +1,10 @@
 # code your #position_taken? method here!
 
-def position_taken(index,boar)
-  if()
+def position_taken(board,index)
+  if(board[index] == nil)
+    "true"
+  else
+    "false"
+  end
+end
    
